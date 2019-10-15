@@ -6,7 +6,7 @@ function initViz() {
       width: "100%",
       height: "70px",
   };
-  vizProfitRatio = new tableau.Viz(tabProfitRatio, url, options);
+  viz = new tableau.Viz(tabProfitRatio, url, options);
 
   url = "https://clientreporting.theinformationlab.co.uk/t/PublicDemo/views/Superstoreforembeded/SalesperCustomer",
   options = {
@@ -14,7 +14,7 @@ function initViz() {
       width: "100%",
       height: "70px",
   };
-  vizSalesPerCustomer = new tableau.Viz(tabSalesPerCustomer, url, options);
+  viz = new tableau.Viz(tabSalesPerCustomer, url, options);
 
 
   url = "https://clientreporting.theinformationlab.co.uk/t/PublicDemo/views/Superstoreforembeded/ProfitperOrder",
@@ -23,7 +23,7 @@ function initViz() {
       width: "100%",
       height: "70px",
   };
-  vizProfitPerOrder = new tableau.Viz(tabProfitPerOrder, url, options);
+  viz = new tableau.Viz(tabProfitPerOrder, url, options);
 
   url = "https://clientreporting.theinformationlab.co.uk/t/PublicDemo/views/Superstoreforembeded/Avg_Discount",
   options = {
@@ -31,7 +31,7 @@ function initViz() {
       width: "100%",
       height: "70px",
   };
-  vizAvgDiscount = new tableau.Viz(tabAvgDiscount, url, options);
+  viz = new tableau.Viz(tabAvgDiscount, url, options);
 
   url = "https://clientreporting.theinformationlab.co.uk/t/PublicDemo/views/Superstoreforembeded/SaleMap",
   options = {
@@ -39,7 +39,7 @@ function initViz() {
       width: "100%",
       height: "300px",
   };
-  vizSalesBySegment = new tableau.Viz(tabSalesBySegment, url, options);
+  viz = new tableau.Viz(tabSalesBySegment, url, options);
 
   url = "https://clientreporting.theinformationlab.co.uk/t/PublicDemo/views/Superstoreforembeded/MonthlySales",
   options = {
@@ -47,5 +47,5 @@ function initViz() {
       width: "100%",
       height: "200px",
   };
-  vizMonthlySales = new tableau.Viz(tabMonthlySales, url, options);
+  viz = new tableau.Viz(tabMonthlySales, url, options);
 }
